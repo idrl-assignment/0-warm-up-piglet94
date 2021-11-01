@@ -1,7 +1,6 @@
 import plot_matrix
 import numpy as np
 
-
 def test_generate_matrix():
     matrix = plot_matrix.generate_random_matrix(10, 10)
     assert matrix.shape == (10, 10), "矩阵形状不一致！"
