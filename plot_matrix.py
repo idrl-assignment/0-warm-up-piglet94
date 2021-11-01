@@ -13,6 +13,6 @@ def save_matrix(matrix, picture_name):
     plt.savefig(picture_name)
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     matrix = generate_random_matrix(10, 10)
     save_matrix(matrix, "example.jpg")
